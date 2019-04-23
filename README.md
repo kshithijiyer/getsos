@@ -12,7 +12,7 @@ A tool to collect sosreports from multiple machines.
 ```
 2. Change directory to the project directory. 
 ```
-# cd  getsos
+# cd getsos
 ```
 3. Now run the installation script.
 ```
