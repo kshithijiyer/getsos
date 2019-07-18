@@ -3,7 +3,10 @@ A tool to collect sosreports from multiple machines.
 
 ## Prerequisites
 1. Python 3.x
-2. passwordless ssh to all the machines.
+2. Install sshpass on the control node.(If passwordless ssh isn't configured.)
+```
+# yum install sshpass
+```
 
 ## Installation
 1. Download the project files from github.
@@ -37,6 +40,8 @@ machine6
 **Note**: 
 The default user used by the script is __root__ but can be changed using the ```-u``` or ```--username``` option. 
 The default destination directory is __.__ (present dir) ```-d``` or ```--dist-dir``` option.
+If passwordless ssh isn't configured on the machines use ```-p``` or ```--password``` option to do so.
+
 
 ## Built with 
 [IDLE 3](https://www.python.org/downloads/)
